@@ -23,6 +23,10 @@ h1, h2, p {
     margin: 0;
 }
 
+img {
+    width: 200px;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -54,7 +58,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 64px;
+    padding: 5px 128px;
     /* border: 1px solid white; */
 }
 
@@ -75,10 +79,10 @@ button {
 
 /* -- description */
 .description {
-    padding: 64px;
+    padding: 128px;
     display: flex;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
+    gap: 32px;
 }
 
 /* -- text-description */
@@ -122,6 +126,7 @@ button {
 
 .info .images{
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     justify-content: center;
 }
@@ -143,6 +148,13 @@ button {
     /* flex: 1; */
     background-color: #e5e7eb;
     padding: 124px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote .text {
@@ -152,27 +164,32 @@ button {
 }
 .quote .name {
     text-align: end;
+    font-weight: bold;
 }
 /* END quote */
+
 /* -- Contact */
 .contact {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 64px;
     /* flex: 1; */
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
     padding: 25px 50px;
+    gap: 250px;
 }
 
 .container button{
     border: 1px solid #f9faf8;
+    /* margin-left: 64px; */
 }
 /* END Content */
 
