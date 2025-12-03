@@ -1,16 +1,44 @@
-.header
-    .logo
-    .links
-        .link1
-        .link2
-        .link3
 .content
-    .description
-        .text-description
-        img
+    .hero
+        .header
+            .logo
+            .links
+                ul
+                    li
+                    li
+                    li
+
+        .description
+            .text-description
+                h1
+                p
+                button
+            img
+
     .info
+        h1
         .images
+            img-txt
+                img
+                p
+            img-txt
+                img
+                p
+            img-txt
+                img
+                p
+            img-txt
+                img
+                p
+
     .quote
+        p
+        p
+
     .contact
+        .container
+            .contact-txt
+            button
+
 .footer
     div

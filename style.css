@@ -1,15 +1,187 @@
+/* -- General */
 body {
-
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.header {
-    background-color: #1F2937;
+.hero, .footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1f2937;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 8px 30px;
+    max-width: 130px;
+    max-height: 60px;
+    border-radius: 8px;
+    border: 0;
+}
+
+/* END General */
+
+/* -- Content */
 .content {
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.footer {
-    background-color: #1F2937;
+/* -- hero */
+.hero {
+    /* flex: 1; */
 }
+
+/* -- header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 64px;
+    /* border: 1px solid white; */
+}
+
+/* -- logo */
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+/* END logo */
+
+/* -- links ul */
+.header .links ul {
+    display: flex;
+    gap: 16px;
+} 
+/* END links ul */
+/* END header */
+
+/* -- description */
+.description {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* -- text-description */
+.text-description {
+    display: flex;
+    /* gap: 6px; */
+    flex-direction: column;
+}
+
+/* -- description general */
+.text-description h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text-description p, .header .links a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-description button {
+    
+}
+/* END description general */
+/* END text-description */
+/* END description */
+/* END hero */
+
+/* -- info */
+.info {
+    /* flex: 1; */
+    text-align: center;
+    padding: 64px;
+    padding-top: 0px;
+}
+
+.info h1 {
+    margin: 32px;
+}
+
+.info .images{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.info .images img{
+    border-radius: 16px;
+    border: 3px solid #3882f6;
+}
+
+.info h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+/* END info */
+
+/* -- quote */
+.quote {
+    /* flex: 1; */
+    background-color: #e5e7eb;
+    padding: 124px;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.quote .name {
+    text-align: end;
+}
+/* END quote */
+/* -- Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    /* flex: 1; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 25px 50px;
+}
+
+.container button{
+    border: 1px solid #f9faf8;
+}
+/* END Content */
+
+/* -- footer */
+.footer {
+    text-align: center;
+    padding: 35px;
+    color: #e5e7eb;
+}
+/* END footer */
+
+
