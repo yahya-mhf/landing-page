@@ -1,0 +1,16 @@
+.header
+    .logo
+    .links
+        .link1
+        .link2
+        .link3
+.content
+    .description
+        .text-description
+        img
+    .info
+        .images
+    .quote
+    .contact
+.footer
+    div
